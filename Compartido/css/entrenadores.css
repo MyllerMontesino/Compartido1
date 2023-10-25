@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+body{
+    background-color: #ddd;
+    margin: 100%;
+}
+.col-sm{
+    color: green;
+}
+header{
+    background-color:#eee;
+    position: relative;
+    word-wrap: break-word;
+}
+header h1{
+    font-size: 5rem;
+    color: rgb(195, 1, 1);
+    text-align: center;
+}
+h1{
+    font-size: 3em !important;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 1rem;
+}
+form{
+    padding-right: 3rem;
+}
+.nav-link{
+    text-align: center !important;
+}
+
+button.navbar-toggler{
+    background-color: white;
+    color: white;
+}
+nav div{
+    font-size: 1.2em;
+    margin-top: 0rem;
+    background-color: black ;
+
+}
+nav div a{
+    color: white !important;
+    margin-left: 2rem;
+}
+.navbar-brand{
+    font-size: 1.2em !important;
+}
+
+nav div a{
+    color: white !important;
+    margin-left: 2rem;
+}
+
+main{
+    margin: auto !important;
+}
+section{
+    border: black solid 3px;
+    margin: 2rem;
+}
+aside{
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+.imgGym{
+    width: 90%;
+}
+
+.container-fluid{
+    margin: -1rem;
+}
+.card{
+    z-index: -1;
+    margin: 1.5rem;
+
+    
+}
+
+.card-body{
+    border: solid black 4px;
+    background: linear-gradient(rgba(75, 74, 74, 0.315), rgba(252, 252, 252, 0.959));
+    
+}
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+    
+}
+
+.imgplanB{
+    width: 20%;
+    align-items: center;
+}
+
+.rowgeneral{
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+.btn-whatsapp{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    bottom: 4rem;
+    right: 4rem;
+    color: #20df36;
+    text-align: center;
+    z-index: 350;    
+}
+
+.fa-whatsapp{
+    font-size: 6rem;    
+}
+
+.btn-whatsapp :hover{
+    color: #20df36b9;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+	background-color: black;
+	padding: 1.5rem 8%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.info{
+    color: antiquewhite;
+}

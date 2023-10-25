@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+body{
+    background-color: #ddd;
+    margin: 100%;
+}
+.col-sm{
+    color: green;
+}
+header{
+    background-color:#eee;
+    position: relative;
+    word-wrap: break-word;
+}
+header h1{
+    font-size: 5rem;
+    color: rgb(195, 1, 1);
+    text-align: center;
+}
+h1{
+    font-size: 3em !important;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 1rem;
+}
+.nav-link{
+    text-align: center !important;
+}
+
+button.navbar-toggler{
+    background-color: white;
+    color: white;
+}
+nav div{
+    font-size: 1.2em;
+    margin-top: 0rem;
+    background-color: black ;
+
+}
+nav div a{
+    color: white !important;
+    margin-left: 2rem;
+}
+.navbar-brand{
+    font-size: 1.2em !important;
+}
+
+nav div a{
+    color: white !important;
+    margin-left: 2rem;
+}
+
+
+.container-fluid{
+    margin: -1rem;
+}
+
+
+.rowgeneral{
+    margin-left: 1rem;
+    text-align: center;
+}
+
+
+.titulo{  
+    color: rgb(255, 72, 72);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    background-color: rgba(110, 110, 110, 0.164);
+    border:0.1rem solid rgb(0, 3, 7);
+}
+
+section{
+    margin: 0;
+    margin-left: -4rem;
+    padding: 5rem;
+    background-color: #eee;
+}
+
+/*Galeria*/
+.gallery {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: auto ;
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*----------------*/
+.btn-whatsapp{
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 4rem;
+    right: 4rem;
+    color: #20df36;
+    text-align: center;
+    z-index: 999;
+} 
+.fa-square-whatsapp{
+    font-size: 6rem; 
+}
+
+.btn-whatsapp :hover{
+    color: #20df36b9;
+}
+
+aside{
+    margin: 1rem;
+    position: sticky;
+    top: 9rem !important;
+    display: flex;
+    top: 1rem;
+    bottom: 7rem;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+	background-color: black;
+	padding: 1.5rem 8%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.info{
+    color: antiquewhite;
+}
+
+
+.titulo-principal{
+    text-align: center;
+	font-size: 2rem;
+	margin: 0 0 2rem;
+}
+
+.contenido{
+	width: 95%;
+	margin: 0.1;
+}
